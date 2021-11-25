@@ -34,7 +34,6 @@ img {
   height: 800px;
   background-color: #265847;
   background-image: url("./../img/header-bg.jpg");
-  background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
