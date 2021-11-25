@@ -46,13 +46,8 @@ img {
   margin: 0 auto;
   background-color: rgba(141, 46, 46, 0.338);
 }
-.logo {
-  position: absolute;
-  width: 234px;
-  height: 50px;
-  left: 215px;
-  top: 50px;
 
+.logo {
   font-family: Lobster;
   font-style: normal;
   font-weight: normal;
