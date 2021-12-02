@@ -10,7 +10,7 @@ font-family: 'PT Sans', sans-serif; */
 body {
   margin: 0;
   font-family: "PT Sans", sans-serif;
-  color: #31405B;
+  color: #31405b;
 }
 
 .bgcolor {
@@ -40,7 +40,7 @@ ul {
 }
 
 input {
-  font-family: 'PT Sans', sans-serif;
+  font-family: "PT Sans", sans-serif;
 }
 
 label {
@@ -158,7 +158,7 @@ label {
 }
 
 html {
-   scroll-behavior: smooth; 
+  scroll-behavior: smooth;
 }
 
 .header-scroll::after {
@@ -563,9 +563,9 @@ html {
 }
 
 .contact-list a {
-  color: #138ECE;
-  text-decoration: none; 
-  transition: .5s;
+  color: #138ece;
+  text-decoration: none;
+  transition: 0.5s;
 }
 
 .contact-list a:hover {
@@ -588,22 +588,22 @@ html {
 }
 
 .contact-list-icon.phone::before {
-  background-image: url('./../img/icons/phone.svg');
+  background-image: url("./../img/icons/phone.svg");
 }
 
 .contact-list-icon.mail::before {
-  background-image: url('./../img/icons/mail.svg');
+  background-image: url("./../img/icons/mail.svg");
 }
 
 .contact-list-icon.adress::before {
-  background-image: url('./../img/icons/map-pin.svg');
+  background-image: url("./../img/icons/map-pin.svg");
 }
 
 /* contact-form */
 form {
   padding: 40px;
   width: 630px;
-  background: #FFFFFF;
+  background: #ffffff;
   box-shadow: 0px, 10px rgba(211, 211, 211, 0.25);
 }
 
@@ -614,14 +614,13 @@ form {
 }
 
 .form-group {
- margin-bottom: 30px;
-
+  margin-bottom: 30px;
 }
 
 .form-group-title {
   margin-bottom: 15px;
   font-weight: 700;
-  font-size: 20px; 
+  font-size: 20px;
 }
 
 .form-group-row {
@@ -643,13 +642,13 @@ form {
   padding-left: 20px;
   padding-right: 20px;
   height: 50px;
-  
-  background: #EEEEEE;
-  border: 1px solid #C0C0C0;
+
+  background: #eeeeee;
+  border: 1px solid #c0c0c0;
   border-radius: 6px;
-  
+
   font-size: 18px;
-  color: #31405B;
+  color: #31405b;
 }
 
 .radio-row {
@@ -675,8 +674,8 @@ form {
   margin-right: 10px;
   width: 20px;
   height: 20px;
-  background: #EEEEEE;
-  border: 1px solid #C0C0C0;
+  background: #eeeeee;
+  border: 1px solid #c0c0c0;
   border-radius: 50%;
 }
 
@@ -689,9 +688,9 @@ form {
 .custom-radio::before {
   content: "";
   position: absolute;
-   width: 12px;
+  width: 12px;
   height: 12px;
-  background: #2AB698;
+  background: #2ab698;
   border-radius: 50%;
   top: 50%;
   left: 50%;
@@ -699,8 +698,7 @@ form {
   /* display: none; */
   display: block;
   transform: translate(-50%, -50%) scale(0);
-  transition: transform .2s ease-in;
- 
+  transition: transform 0.2s ease-in;
 }
 
 .real-radio:checked + .custom-radio::before {
