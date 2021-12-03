@@ -242,8 +242,6 @@ html {
   color: #138ece;
 }
 
-
-
 .main-img {
   width: 570px;
 }
@@ -385,6 +383,7 @@ html {
 .cards-second-row {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 30px;
 }
 
 .cards-second-row a {
