@@ -8,7 +8,7 @@ font-family: 'PT Sans', sans-serif; */
 }
 
 html {
-   height: 100%; /* sticky footer */
+  height: 100%; /* sticky footer */
 }
 
 body {
@@ -48,6 +48,19 @@ ul {
   margin: 0;
   padding: 0;
   list-style-type: none;
+}
+
+fieldset {
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+legend {
+  display: block;
+  border: none;
+  margin: 0;
+  padding: 0;
 }
 
 input {
@@ -204,8 +217,8 @@ html {
 }
 
 .button:hover {
-  background-color: #d7d8d7;;
-  color: #31405B;;
+  background-color: #d7d8d7;
+  color: #31405b;
 }
 
 /* main */
@@ -637,7 +650,7 @@ form {
 }
 
 .form-group:last-of-type {
- margin-bottom: 36px;
+  margin-bottom: 36px;
 }
 
 .form-group-title {
@@ -760,8 +773,8 @@ form {
   width: 20px;
   height: 20px;
 
-  background: #EEEEEE;
-  border: 1px solid #C0C0C0;
+  background: #eeeeee;
+  border: 1px solid #c0c0c0;
   border-radius: 2px;
 }
 
@@ -782,7 +795,7 @@ form {
   /* display: none; */
   transform: translate(-50%, -50%) scale(0);
   transition: transform 0.2s ease-in;
-  background-image: url('./../img/icons/check.svg');
+  background-image: url("./../img/icons/check.svg");
 }
 
 .real-checkbox:checked + .custom-checkbox::before {
@@ -819,5 +832,3 @@ ul.ui-list a {
   color: #138ece;
 }
 /* user-interface-end */
-
-  
