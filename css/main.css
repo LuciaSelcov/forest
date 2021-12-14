@@ -72,7 +72,9 @@ label {
 }
 
 .container {
-  width: 1170px;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 1200px;
   margin: 0 auto;
 }
 
@@ -131,6 +133,12 @@ label {
   color: #ffffff;
 }
 
+.header-nav-button {
+  display: none;
+  background: transparent;
+  border: none;
+}
+
 .header-nav-list {
   display: flex;
 }
@@ -160,9 +168,11 @@ label {
 }
 
 .header-title {
+  margin-top: 16px;
   margin-bottom: 20px;
   font-weight: 700;
   font-size: 60px;
+  line-height: 1;
 }
 
 .header-content p {
@@ -832,3 +842,6 @@ ul.ui-list a {
   color: #138ece;
 }
 /* user-interface-end */
+
+
+
